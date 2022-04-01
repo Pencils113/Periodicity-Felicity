@@ -34,3 +34,8 @@ regression model of the form:
     Achieved convergence tolerance: 7.628e-07
 
 ## ![Lomb-Scargle Periodogram](https://github.com/Pencils113/Periodicity-Felicity/tree/main/Images/OJ287.png)
+
+## Project Abstract
+
+Binary supermassive black holes are expected to be common at the centers of galaxies. No observational technique has the resolution to directly image them. One indirect way to confirm their presence is to look for periodic variations in their light curves. However, most AGN light curves only go back a few decades since AGN were discovered about 1963. This is a severe problem since the timescale of variations are expected to be of the order of a decade.  Fortunately, the Harvard College Observatory has been monitoring some AGN (mistaken to be stars) since the mid-nineteenth century. These observations have recently been digitized. I obtained this publicly available data and looked for periodicity in the optical light curves of 13 of the brightest quasars using Spectral Analysis in R. I then used least-square regression to find the best fitting model of the lightcurve data. Finally, multiple complementary methods were used to determine whether each lightcurve has a periodic component.
+
