@@ -33,3 +33,4 @@ regression model of the form:
     Number of iterations to convergence: 2 
     Achieved convergence tolerance: 7.628e-07
 
+## ![Lomb-Scargle Periodogram](https://github.com/Pencils113/Periodicity-Felicity/tree/main/Images/OJ287.png)
