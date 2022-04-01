@@ -1,4 +1,4 @@
-my_data <- read.delim("/Users/rohanojha/Downloads/PeriodicityProject/3C279.txt", sep=",", header=FALSE)
+my_data <- read.delim('''enter data .txt''', sep=",", header=FALSE)
 y<-my_data[1]
 x<-my_data[2]
 y<-y-(sum(y)/lengths(y))
