@@ -8,17 +8,16 @@ regression model of the form:
 
 ## Example Output for OJ287
 
-    "Predicted Period" "48.9836740000001"
-    "Significant Value Threshold" "12.1798306163538"           
-    "Power of Predicted Period" "28.4041632977835"         
-    "Probability max occurred by chance" "9.03735420607987e-10"              
-    "Amplitude" "-0.625"   
-    "Phase" "0.8"  
-    "Offset" "-0.125"
-    "Error"            "1.00205142163057"
+    Predicted Period                    48.9836740000001
+    Significant Value Threshold         12.1798306163538         
+    Power of Predicted Period           28.4041632977835    
+    Probability max occurred by chance  9.03735420607987e-10             
+    Amplitude                           -0.625
+    Phase                               0.8
+    Offset                              -0.125
+    Error                               1.00205142163057
 
-    Formula: regressionY ~ (amplitude * sin((2 * pi * regressionX/predictedPeriod) + 
-    phase) + offset)
+    Formula: regressionY ~ (amplitude * sin((2 * pi * regressionX / predictedPeriod) + phase) + offset)
 
     Parameters:
           Estimate Std. Error t value Pr(>|t|)    
