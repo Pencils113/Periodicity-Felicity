@@ -4,7 +4,7 @@
 
 This code in R takes in data from [Harvard DASCH: Digital Access to a Sky Century](http://dasch.rc.fas.harvard.edu/lightcurve.php) and outputs 
 a [Lomb-Scargle Periodogram](https://cran.r-project.org/web/packages/lomb/lomb.pdf) along with regression coefficients and strength of a sinusoidal 
-regression model of the form:
+regression model.
 
 ## Example Output for OJ287
 
